@@ -1,6 +1,6 @@
 # scan-attackers
 
-This is a Bash script intended to launch nmap scans against IP addresses identified as attack nodes by Fail2Ban (http://www.fail2ban.org).  It currently reads from a list of IP addresses from a text file, one IP address on each line.
+This is a Bash script intended to launch nmap scans against IP addresses identified as attack nodes by Fail2Ban (http://www.fail2ban.org).  It currently reads from a list of IP addresses from a text file, one IP address on each line.  It is intended to be run inside a GNU screen (https://www.gnu.org/software/screen/) session so that it may run detached.
 
 Known Issues:
 
