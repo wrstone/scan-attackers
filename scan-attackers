@@ -5,11 +5,20 @@
 #  VERSION:  1.0                                                            #
 #  AUTHOR:   William Stone III <wrs@wrstone.com>                            #
 #  WRITTEN:  Thu Jun 11 14:42:22 UTC 2015                                   #
-#  MODIFIED: Wed Jun 24 00:59:06 UTC 2015                                   #
+#  MODIFIED: Wed Jun 24 01:27:02 UTC 2015                                   #
 #                                                                           #
-#  PURPOSE:  This script will read from a list of IP addresses.  It will    #
-#            then run an nmap "Slow comprehensive scan" on each node.       #
+#  PURPOSE:  This is a Bash script that launches an nmap "Slow              #
+#            comprehensive scan" against IP addresses identified as attack  #
+#            nodes by Fail2Ban (http://www.fail2ban.org).                   #
+#                                                                           #
+#            It reads a list of IP addresses from a text file containing    #
+#            one IP address on each line.                                   #
+#                                                                           #
 #            It will then save the scan output to a file for later review.  #
+#                                                                           #
+#  NOTES:    This script intended to be run inside a GNU screen             #
+#            (https://www.gnu.org/software/screen/) session so that it may  #
+#            run detached.                                                  #
 #                                                                           #
 #############################################################################
 
