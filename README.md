@@ -8,6 +8,8 @@ It will then save the scan output to a file for later review.
 
 This script intended to be run inside a GNU screen (https://www.gnu.org/software/screen/) session so that it may run detached.
 
+-----
+
 Known Issues:
 
 1.  It's running a slow, methodical scan.  It takes a _long_ time to run.  Investigate other scans that will reliably return the required data in a reasonable period of time.
