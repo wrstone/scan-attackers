@@ -1,8 +1,8 @@
 #!/bin/bash
 #############################################################################
 #                                                                           #
-#  NAME:     scan_attackers                                                 #
-#  VERSION:  1.0                                                            #
+#  NAME:     scan-attackers                                                 #
+#  VERSION:  1.0.1                                                          #
 #  AUTHOR:   William Stone III <wrs@wrstone.com>                            #
 #  WRITTEN:  Thu Jun 11 14:42:22 UTC 2015                                   #
 #  MODIFIED: Wed Jun 24 01:27:02 UTC 2015                                   #
